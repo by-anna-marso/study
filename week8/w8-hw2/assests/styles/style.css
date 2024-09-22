@@ -1,0 +1,51 @@
+.nagivation {
+  display: inline-flexbox;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: auto;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 30px;
+}
+
+h2 {
+  padding: 50px;
+}
+
+.nav-link {
+  color: white;
+}
+
+button {
+  background: #008eb0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.post-content {
+  width: 500px;
+  height: 325px;
+}
+
+.footer {
+  display: inline-flexbox;
+  background-color: grey;
+}
